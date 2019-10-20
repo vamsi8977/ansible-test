@@ -1,0 +1,28 @@
+---
+- hosts: localhost
+  tasks:
+  - name: test the java tools
+    shell: java -version
+  - name: test the git tools
+    shell: git --version
+  - name: test the maven tools
+    shell: mvn --version
+  - name: test the gradle tools
+    shell: gradle -version
+  - name: test the ant tools
+    shell: ant -version
+  - name: test the python tools
+    shell: python --version
+  - name: test the ansible tools
+    shell: ansible --version
+  - name: test the terraform tools
+    shell: terraform -v
+  - name: test the ruby tools
+    shell: ruby -v
+  - name: read the bash file
+    shell: cat ~/.bash_profile
+  - name: source the bash file
+    shell: ~/.bash_profile
+  - name: sleep time
+    shell: sleep 5
+...

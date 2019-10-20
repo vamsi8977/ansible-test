@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  - name: simple test
+    shell: whoami
+  - name: simple test
+    shell: sleep 5
+...

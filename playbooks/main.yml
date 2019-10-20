@@ -1,0 +1,3 @@
+- include: validate.yml
+- include: tools.yml
+- include: shell.yml
