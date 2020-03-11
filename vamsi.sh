@@ -5,3 +5,4 @@ pwd
 time
 date
 du -h
+sleep -5
